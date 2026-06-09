@@ -1,0 +1,14 @@
+[Unit]
+Description=Smart Bus Display Service
+After=network.target
+
+[Service]
+Type=simple
+User=s4mpie2
+WorkingDirectory=/home/s4mpie2/smartbus
+ExecStart=/usr/bin/python3 /home/s4mpie2/smartbus/bus_display.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
