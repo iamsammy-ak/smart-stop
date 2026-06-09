@@ -1,6 +1,6 @@
 # 🚌 Smart Stop — Bus Assistance System
 
-An IoT-based accessibility system that helps **hearing-impaired passengers** independently identify which bus is approaching at a public transit stop. The system uses **two Raspberry Pis** that talk to each other over **MQTT**: a *Stop Pi* with a touchscreen at the bus stop, and a *Bus Pi* on the bus itself that displays the stop name and rings a buzzer when a passenger requests assistance.
+An IoT-based accessibility system that helps **hearing-impaired passengers** independently identify which bus is approaching at a public transit stop. The system uses **two Raspberry Pis** that talk to each other over **MQTT**: a *Stop Pi* with a touchscreen at the bus stop, and a *Bus Pi* on the bus itself that displays the stop name and announces on the speaker when a passenger requests assistance.
 
 > **Primary user:** deaf or hard-of-hearing passengers who cannot rely on audio announcements from the bus driver.
 
